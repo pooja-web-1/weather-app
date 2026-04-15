@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h1>🌦️ Weather Pro</h1>
+
+  <div class="search-box">
+    <input type="text" id="cityInput" placeholder="Enter city...">
+    <button onclick="getWeather()">Search</button>
+  </div>
+
+  <div class="buttons">
+    <button onclick="getLocationWeather()">📍 Location</button>
+    <button onclick="toggleDarkMode()">🌙 Mode</button>
+  </div>
+
+  <div id="weatherResult"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
